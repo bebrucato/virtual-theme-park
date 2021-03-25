@@ -1,0 +1,13 @@
+html {
+    height: 100%;
+    background-image: url(./virtualDisneyPitch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* tinkerbell cursor */
+* {
+    cursor: url(https://cur.cursors-4u.net/toons/too-9/too908.ani),
+        url(https://cur.cursors-4u.net/toons/too-9/too908.png), auto !important;
+}
