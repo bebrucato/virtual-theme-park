@@ -16,7 +16,8 @@ Vendors.init({
     },
     description: {
         type: DataTypes.STRING,
-      },
+}},
+      {
       sequelize,
     timestamps: false,
     freezeTableName: true,

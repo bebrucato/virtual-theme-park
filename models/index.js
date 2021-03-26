@@ -5,13 +5,30 @@ const Vendors = require('./Vendors')
 
 
 Vendors.hasMany(Products, {
-  foreignKey: 'id',
-  onDelete: 'CASCADE'
-});
+  foreignKey: 'vendor_id',
+  onDelete:"CASCADE"
+})
 
 Products.belongsTo(Vendors, {
-  foreignKey: 'id',
-  foreingKey: 'product_name'
-});
+  foreignKey: 'vendor_id',
+})
+
+User.hasMany(Rides, {
+  foreignKey: 'user_id',
+  onDelete:"CASCADE"
+})
+
+User.hasMany(Products, {
+  foreignKey: 'user_id',
+  onDelete:"CASCADE"
+})
+
+Products.belongsTo(User, {
+  foreignKey: 'user_id'
+})
+
+Rides.belongsTo(User, {
+  foreignKey: 'user_id'
+})
 
 module.exports = { User, Products, Rides, Vendors};
