@@ -1,7 +1,7 @@
 const router = require('express').Router();
 router.get("/login", async(req, res)=> {
     res.render("login")
-})
+});
 
 router.get('/', async(req, res) => {
  try {
@@ -11,5 +11,7 @@ router.get('/', async(req, res) => {
      
  }
 });
+
+//post route for saving/ every turn post route/completed
 
 module.exports = router;
