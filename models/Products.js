@@ -20,7 +20,7 @@ Products.init({
       vendor_id: {
         type: DataTypes.INTEGER,
         references: {
-          model: 'vendor',
+          model: 'vendors',
           key:'id'
         }
 },
