@@ -1,10 +1,11 @@
 const router = require('express').Router();
-const { User,Rides,Products, Vendors } = require('../../models');
+const { User } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.get('/', (req, res) => {
     User.findAll({
         attributes: ['id', 'name','email','password' ],
+        
     })
         .then(dbUserData => res.json(dbUserData))
         .catch(err => {
