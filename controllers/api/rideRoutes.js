@@ -1,10 +1,16 @@
 const router = require('express').Router();
-const { Rides } = require('../../models');
+const { Rides, User } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.get('/', (req, res) => {
     Rides.findAll({
         attributes: ['id', 'ride_name','description' ],
+        include: [
+            {
+                model: User,
+                attributes: ['id', 'name', 'email', 'password']
+            },
+        ]
     })
         .then(dbRideData => res.json(dbRideData))
         .catch(err => {
