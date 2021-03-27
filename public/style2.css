@@ -1,0 +1,277 @@
+*,
+*::before,
+*::after {
+    /* box-sizing: border-box;
+    background:black;
+    background-image:url(/images/stars.png);
+    background-size: cover; */
+    
+}
+
+
+.html {
+    height:100%;                    
+    margin-top:0%;
+    padding:0%; 
+}
+
+header {
+    margin: auto 0px;
+    box-sizing: border-box;
+    background:black;
+    background-image:url(/images/stars.png);
+    background-size: cover;
+}
+
+body {
+    color: white;
+    background-image:url(/images/stars.png);
+    background-size: cover;
+    text-align: center;
+    height:100%;                    
+    margin-top:0%;
+    padding:0%; 
+
+   
+}
+
+
+.title {
+    margin: auto 0px;
+    margin-top: auto 1000px;
+}
+
+.underline{
+    border-bottom: 1px dotted #c03;
+    width: 100%;
+    display: block;
+}
+
+
+
+.title-section {
+    margin: auto 0px;
+    padding: 0px;
+
+}
+
+
+h1 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: white;
+    font-size: 100px;
+    text-decoration: underline;
+    text-decoration-color: gray;
+    margin-top: 30px;
+    margin-bottom: 10px;
+   
+    
+}
+
+#Space {
+    margin: 0px;
+    font-size: 60px;
+    
+}
+
+/* Space Mountain Virtual Tour*/
+
+.Info {
+    background-color: black;
+    margin-left: 40%;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 3px;
+    /* margin-right: 33%; */
+}
+
+#services {
+    color: white;
+    background-image: url(/images/space.png);
+    background-size: cover;
+    /* width: 500px; */
+    /* background-blend-mode: multiply; */
+    text-align:left;
+    /* height:250px; */
+    font-family: 'Mouse Memoirs', sans-serif;
+    /* grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1; */
+    width: 100%;
+    height: inherit;
+}
+
+.Youtube {
+    text-align: center;
+    justify-content: center;
+}
+
+
+.my-services {
+    background-color: rgba(0,0,0,0.5);
+    height: 500px;
+    display: grid;
+    /* grid-template-columns: 45% 45%;
+    grid-template-rows: 100%; */
+}
+
+.section__title--services {
+    /* position: relative; */
+}
+
+.section__title--services::after {
+    content: '';
+    display: block;
+    width: 2em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    opacity: 0.25;
+
+}
+
+.services {
+    margin-bottom: 4em;
+}
+
+
+.service {
+    max-width: 1000px;
+    margin: 0px;
+    height: inherit;
+}
+
+.inline {
+    /* display:inline; */
+}
+
+.fast-pass {
+    color: white;
+    margin-right:25px;
+    font-size:35px;
+    display: inline-block;
+    font-family: 'Mouse Memoirs', sans-serif;
+
+}
+.nav {
+ position: fixed;
+ font-family: 'Mouse Memoirs', sans-serif;
+ color: white;
+ background-color: black;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ z-index:100;
+ font-size: 50px;
+ background-image:url(/images/stars.png);
+ transform: translateX(100%);
+ transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
+
+}
+
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+
+.nav__link {
+    color:inherit;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-h3);
+    text-decoration: none;
+
+}
+
+.nav__link:hover {
+    color: var(--clr-accent);
+
+}
+
+.nav-toggle {
+    padding: .5em;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 1000;
+
+}
+
+
+.nav-open .nav {
+    transform: translateX(0);
+
+}
+
+.nav-open .nav-toggle {
+    position: fixed;
+}
+
+.nav-open .hamburger {
+    transform: rotate(.625turn);
+}
+
+.nav-open .hamburger::before {
+    transform: rotate(90deg) translateX(-6px);
+
+}
+
+.nav-open .hamburger::after {
+    opacity: 0;
+}
+
+
+
+.hamburger {
+    display: inline-block;
+    position: relative;
+    color: red;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    background-color: red;
+    color: red;
+    width: 2em;
+    height: 3px;
+    border-radius: 1em;
+    transition: transform 250ms ease-in-out;
+
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+
+.hamburger::before {
+    top: 6px;
+
+}
+
+.hamburger::after{
+    bottom: 6px;
+}
+
+
+
+
