@@ -9,11 +9,6 @@
 }
 
 
-.html {
-    height:100%;                    
-    margin-top:0%;
-    padding:0%; 
-}
 
 header {
     margin: auto 0px;
@@ -41,13 +36,6 @@ body {
     margin-top: auto 1000px;
 }
 
-.underline{
-    border-bottom: 1px dotted #c03;
-    width: 100%;
-    display: block;
-}
-
-
 
 .title-section {
     margin: auto 0px;
@@ -69,7 +57,7 @@ h1 {
 }
 
 #Space {
-    margin: 0px;
+    margin-left: 60px;
     font-size: 60px;
     
 }
@@ -78,7 +66,16 @@ h1 {
 
 .Info {
     background-color: black;
-    margin-left: 40%;
+    margin-left: 80%;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 3px;
+    
+}
+
+.Info2 {
+    background-color: black;
+    margin-left: 80%;
     font-size: 20px;
     border: 2px solid white;
     padding: 3px;
@@ -88,18 +85,19 @@ h1 {
 #services {
     color: white;
     background-image: url(/images/space.png);
-    background-size: cover;
+    /* background-size: cover; */
     /* width: 500px; */
     /* background-blend-mode: multiply; */
-    text-align:left;
+    /* text-align:left; */
     /* height:250px; */
     font-family: 'Mouse Memoirs', sans-serif;
     /* grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 1; */
-    width: 100%;
     height: inherit;
+    background-size: auto;
+
 }
 
 .Youtube {
@@ -116,19 +114,7 @@ h1 {
     grid-template-rows: 100%; */
 }
 
-.section__title--services {
-    /* position: relative; */
-}
 
-.section__title--services::after {
-    content: '';
-    display: block;
-    width: 2em;
-    height: 1px;
-    margin: 0.5em auto 1em;
-    opacity: 0.25;
-
-}
 
 .services {
     margin-bottom: 4em;
@@ -139,11 +125,71 @@ h1 {
     max-width: 1000px;
     margin: 0px;
     height: inherit;
+    margin-left: -800px;
 }
 
 .inline {
     /* display:inline; */
 }
+
+
+
+
+.my-services2 {
+    background-color: rgba(0,0,0,0.5);
+    height: 500px;
+    display: grid;
+    /* grid-template-columns: 45% 45%;
+    grid-template-rows: 100%; */
+}
+
+
+
+#services2 {
+    color: white;
+    background-image: url(/images/space3.png);
+    /* background-size: cover; */
+    /* width: 500px; */
+    /* background-blend-mode: multiply; */
+    /* text-align:left; */
+    /* height:250px; */
+    font-family: 'Mouse Memoirs', sans-serif;
+    /* grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1; */
+    height: inherit;
+    background-size: auto;
+    width: 100%;
+    background-size: cover;
+
+}
+
+
+
+.services2 {
+    margin-bottom: 4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fast Pass Navigator ROAR~ */
+
+
 
 .fast-pass {
     color: white;
@@ -153,6 +199,7 @@ h1 {
     font-family: 'Mouse Memoirs', sans-serif;
 
 }
+
 .nav {
  position: fixed;
  font-family: 'Mouse Memoirs', sans-serif;
