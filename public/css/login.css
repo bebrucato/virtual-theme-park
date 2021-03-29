@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+	background-color: aliceblue;
+}
+
+.form, .login-form, .signup-form, h2 {
+	display: flex;
+	max-width: 100%;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10%;
+}
+
+h2 {
+	font-family: 'Mouse Memoirs', sans-serif;
+    color: black;
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+	display: flex;
+	align-items: center;
+	max-width: 100%;
+}
