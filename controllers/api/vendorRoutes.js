@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Vendors } = require('../../models');
 const withAuth = require('../../utils/auth');
 
-router.get('/', withAuth, (req, res) => {
+router.get('/',  (req, res) => {
     Vendors.findAll({
         attributes: ['id', 'vendor_name','description' ],
     })
