@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Products, Vendors, User } = require('../../models');
 const withAuth = require('../../utils/auth');
 
-router.get('/', withAuth, (req, res) => {
+router.get('/',  (req, res) => {
   Products.findAll({
       attributes: ['id', 'product_name','description' ],
       include: [
