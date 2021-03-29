@@ -1,12 +1,12 @@
-body {
-    margin: 0px;
-}
-
-.hero {
-    background-image: url(/images/hero.gif);
-    height: 1000px;
+html, body{
+    height: 100%;
+    background-image: url(../images/project2LangingPage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
 #myModal {
     margin-top: 300px;
