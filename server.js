@@ -32,7 +32,13 @@ app.get("/space",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
 app.get("/haunted",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
   res.render("haunted",{layout:"rides2"})
 })
+app.get("/potc",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
+  res.render("potc",{layout:"rides3"})
+})
 
+app.get("/thesw",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
+  res.render("thesw",{layout:"rides4"})
+})
 
 app.use(routes);
 sequelize.sync({ force: false }).then(() => {
