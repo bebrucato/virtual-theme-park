@@ -21,8 +21,7 @@ header {
 
 body {
     color: white;
-    background-color: black;
-    /* background-image:url(/images/haunted.png); */
+    background-image:url(/images/pirates.png);
     background-size: cover;
     text-align: center;
     height:100%;                    
@@ -50,7 +49,7 @@ body {
 
 h1 {
     font-family: 'Mouse Memoirs', sans-serif;
-    color: purple;
+    color: orange;
     font-size: 100px;
     text-decoration: underline;
     text-decoration-color: gray;
@@ -72,7 +71,7 @@ h1 {
     background-color: black;
     margin-left: 80%;
     font-size: 20px;
-    border: 2px solid purple;
+    border: 2px solid orange;;
     padding: 3px;
     
 }
@@ -81,15 +80,15 @@ h1 {
     background-color: black;
     margin-left: 80%;
     font-size: 20px;
-    border: 2px solid purple;
+    border: 2px solid orange;;
     padding: 3px;
-    color: purple;
+    color: orange;
     /* margin-right: 33%; */
 }
 
 #services {
-    color: purple;
-    background-image: url(/images/haunted3.png);
+    color: orange;
+    background-image: url(/images/pirates2.png);
     /* background-size: cover; */
     /* width: 500px; */
     /* background-blend-mode: multiply; */
@@ -132,7 +131,7 @@ h1 {
     margin: 0px;
     height: inherit;
     margin-left: -800px;
-    color: purple;
+    color: orange;
 }
 
 .inline {
@@ -154,7 +153,7 @@ h1 {
 
 #services2 {
     color: white;
-    background-image: url(/images/haunted1.png);
+    background-image: url(/images/pirates4.png);
     /* background-size: cover; */
     /* width: 500px; */
     /* background-blend-mode: multiply; */
@@ -176,7 +175,7 @@ h1 {
 
 .services2 {
     margin-bottom: 4em;
-    color: purple;
+    color: orange;
 }
 
 
@@ -200,7 +199,7 @@ h1 {
 
 
 .fast-pass {
-    color: purple;
+    color: orange;
     margin-right:25px;
     font-size:35px;
     display: inline-block;
@@ -219,9 +218,8 @@ h1 {
  right: 0;
  z-index:100;
  font-size: 50px;
- background-image:url(/images/haunted2.png);
+ background-image:url(/images/pirates.png);
  transform: translateX(100%);
- background-repeat: no-repeat;
  transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 
 }
@@ -247,7 +245,7 @@ h1 {
     font-weight: var(--fw-bold);
     font-size: var(--fs-h3);
     text-decoration: none;
-    color: purple;
+    color: orange;
 
 }
 
@@ -296,14 +294,14 @@ h1 {
 .hamburger {
     display: inline-block;
     position: relative;
-    color: purple;
+    color: orange;
 }
 
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background-color: purple;
-    color: purple;
+    background-color: orange;
+    color: orange;
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -328,6 +326,7 @@ h1 {
 .hamburger::after{
     bottom: 6px;
 }
+
 
 
 
