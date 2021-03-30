@@ -329,5 +329,9 @@ h1 {
     bottom: 6px;
 }
 
-
-
+/* TINKERBELL Cursor */
+* {
+    cursor: url(https://cur.cursors-4u.net/toons/too-9/too908.ani),
+        url(https://cur.cursors-4u.net/toons/too-9/too908.png), auto !important;
+}
+/* ---------------- */
