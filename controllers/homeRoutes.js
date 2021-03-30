@@ -91,6 +91,30 @@ router.post('/login', async (req, res) => {
     }
   });
 
+  router.get('/products', async (req, res) => {
+    try {
+      const dbProductData = await Products.findAll({
+        include: [
+          {
+            model: Products,
+            attributes: ['filename', 'description', 'product_name'],
+          },
+        ],
+      });
+  
+      const products = dbProductData.map((product1) =>
+        product1.get({ plain: true })
+      );
+  
+      res.render('vendorc', {
+        products,
+      });
+    } catch (err) {
+      console.log(err);
+      res.status(500).json(err);
+    }
+  });
+
 
 
 

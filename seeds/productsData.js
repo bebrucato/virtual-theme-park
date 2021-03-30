@@ -4,37 +4,37 @@ const productsData = [
     {
       product_name: "churro",
       description: "food",
-      filename: ""
+      filename: "churro.jpg"
     },
     {
       product_name: "turkey_leg",
       description: "food",
-      filename: ""
+      filename: "turkeydisney.jpg"
     },
     {
       product_name: "dole_whip",
       description: "food",
-      filename: ""
+      filename: "dolewhip.jpg"
     },
     {
         product_name: "soda",
         description: "drink",
-        filename: ""
+        filename: "disneycoke.jpg"
       },
       {
         product_name: "mickey_ears",
         description: "accessory",
-        filename: ""
+        filename: "mickeyears.jpg"
       },
       {
         product_name: "shirt",
         description: "accessory",
-        filename: ""
+        filename: "disneyshirt.jpg"
       },
       {
         product_name: "mug",
         description: "accessory",
-        filename: ""
+        filename: "disneymug.jpg"
       }
   ]
 

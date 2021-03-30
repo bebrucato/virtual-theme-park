@@ -21,7 +21,7 @@ router.get('/:id', (req, res) => {
      })
          .then(dbVendorData => {
              if (!dbVendorData) {
-                 res.status(404).json({ message: 'No ride vendor with this id' });
+                 res.status(404).json({ message: 'No vendor with this id' });
                  return;
              }
              res.json(dbVendorData);

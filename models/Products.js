@@ -17,6 +17,10 @@ Products.init({
     description: {
         type: DataTypes.STRING,
       },
+      filename:{
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
       vendor_id: {
         type: DataTypes.INTEGER,
         references: {
