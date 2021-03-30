@@ -32,13 +32,21 @@ app.get("/space",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
 app.get("/haunted",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
   res.render("haunted",{layout:"rides",title:"Haunted Mansion 👻",style:"haunted.css"})
 })
-app.get("/potc",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
+app.get("/pirates",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
   res.render("potc",{layout:"rides",title:"🏴‍☠️POTC🏴‍☠️",style:"potc.css"})
 })
 
-app.get("/thesw",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
+app.get("/starwars",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
   res.render("thesw",{layout:"rides",title:"Star-Wars 🦾 ",style:"starwars.css"})
 })
+
+app.get("/entrance",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
+  res.render("mainpark",{layout:"entrance",title:"Virtual Theme Park 💻",style:"entrance.css"})
+})
+
+
+
+
 
 app.get("/",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
   res.render("homepage",{layout:"main",title:"Virtual Disneyland Tour",style:"main.css"})
@@ -47,6 +55,7 @@ app.get("/",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
 app.get("/login",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
   res.render("login",{layout:"log",title:"Login",style:"logged.css"})
 })
+
 
 app.use(routes);
 sequelize.sync({ force: false }).then(() => {
