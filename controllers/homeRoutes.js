@@ -5,6 +5,21 @@ const withAuth = require('../utils/auth');
 router.get("/login", async(req, res)=> {
     res.render("login")
 });
+router.get("/space", async(req, res)=> { // ROAR
+    res.render("space")
+});
+router.get("/pirates", async(req, res)=> {  // ROAR
+    res.render("potc")
+});
+router.get("/haunted", async(req, res)=> {  /// ROAR
+    res.render("haunted")
+});
+router.get("/starwars", async(req, res)=> {  // ROAR
+    res.render("thesw")
+});
+
+
+
 
 router.get('/', async(req, res) => {
  try {
@@ -12,6 +27,8 @@ router.get('/', async(req, res) => {
     }catch (err) {     
  }
 });
+
+
 
 
 
