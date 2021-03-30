@@ -40,6 +40,14 @@ app.get("/thesw",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
   res.render("thesw",{layout:"rides",title:"Star-Wars 🦾 ",style:"starwars.css"})
 })
 
+app.get("/",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
+  res.render("homepage",{layout:"main",title:"Virtual Disneyland Tour",style:"main.css"})
+})
+
+app.get("/login",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
+  res.render("login",{layout:"log",title:"Login",style:"logged.css"})
+})
+
 app.use(routes);
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
