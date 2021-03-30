@@ -23,8 +23,15 @@ router.get("/space",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
   })
 
   router.get("/mainpark",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
-    res.render("mainpark",{layout:"entrance",title:"Mainpark",style:"entrance.css"})
+    res.render("mainpark",{layout:"entrance",title:"Virtual-Park 💻",style:"entrance.css"})
   })
+
+
+  router.get("/vendorc",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
+    res.render("vendorc",{layout:"vendor",title:"vendor",style:"entrance.css"})
+  })
+
+
 
   router.get("/",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
     res.render("homepage",{layout:"main",title:"homepage",style:"main.css"})
