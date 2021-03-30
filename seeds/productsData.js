@@ -3,31 +3,38 @@ const { Products } = require('../models');
 const productsData = [
     {
       product_name: "churro",
-      description: "food"
+      description: "food",
+      filename: "churro.jpg"
     },
     {
       product_name: "turkey_leg",
-      description: "food"
+      description: "food",
+      filename: "turkeydisney.jpg"
     },
     {
       product_name: "dole_whip",
-      description: "food"
+      description: "food",
+      filename: "dolewhip.jpg"
     },
     {
         product_name: "soda",
-        description: "drink"
+        description: "drink",
+        filename: "disneycoke.jpg"
       },
       {
         product_name: "mickey_ears",
-        description: "accessory"
+        description: "accessory",
+        filename: "mickeyears.jpg"
       },
       {
         product_name: "shirt",
-        description: "accessory"
+        description: "accessory",
+        filename: "disneyshirt.jpg"
       },
       {
         product_name: "mug",
-        description: "accessory"
+        description: "accessory",
+        filename: "disneymug.jpg"
       }
   ]
 

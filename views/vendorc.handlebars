@@ -41,6 +41,14 @@
               </p> 
         </div>
   </section>
+{{#each products as |product|}}
+   <section class="products">
+  <img src="/images/{{product.filename}}" alt="{{product.description}}">
+  <div class="product-details">
+    <h3>{{product.product_name}}</h3>
+  </div>
+</section>
+{{/each}}
   <footer class="Exit">
     <h1>Back to Park</h1>   
 
