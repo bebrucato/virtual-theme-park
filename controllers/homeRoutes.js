@@ -28,7 +28,7 @@ router.get("/space",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
 
 
   router.get("/vendorc",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
-    res.render("vendorc",{layout:"vendor",title:"vendor",style:"entrance.css"})
+    res.render("vendorc",{layout:"vendor",title:"vendor",style:"vendor.css"})
   })
 
 

@@ -20,7 +20,7 @@ header {
 
 body {
     color: white;
-    background-image:url(/images/stars.png);
+    background-image:url(/images/speedway.png);
     background-size: cover;
     text-align: center;
     height:100%;                    
@@ -84,7 +84,7 @@ h1 {
 
 #services {
     color: white;
-    background-image: url(/images/space.png);
+    /* background-image: url(/images/space.png); */
     /* background-size: cover; */
     /* width: 500px; */
     /* background-blend-mode: multiply; */
@@ -147,9 +147,10 @@ h1 {
 
 #services2 {
     color: white;
-    background-image: url(/images/space3.png);
+    background-image: url(/images/vendor4.png);
     /* background-size: cover; */
-    /* width: 500px; */
+    width: 500px;
+    margin-left: 600px;
     /* background-blend-mode: multiply; */
     /* text-align:left; */
     /* height:250px; */
@@ -159,9 +160,6 @@ h1 {
     grid-row-start: 1;
     grid-row-end: 1; */
     height: inherit;
-    background-size: auto;
-    width: 100%;
-    background-size: cover;
 
 }
 
@@ -211,7 +209,7 @@ h1 {
  right: 0;
  z-index:100;
  font-size: 50px;
- background-image:url(/images/stars.png);
+ background-image:url(/images/race5.png);
  transform: translateX(100%);
  transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 
@@ -319,11 +317,6 @@ h1 {
     bottom: 6px;
 }
 
-/* TINKERBELL Cursor */
-* {
-    cursor: url(https://cur.cursors-4u.net/toons/too-9/too908.ani),
-        url(https://cur.cursors-4u.net/toons/too-9/too908.png), auto !important;
-}
-/* ---------------- */
+
 
 
