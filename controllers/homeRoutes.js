@@ -22,6 +22,13 @@ router.get("/space",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
     res.render("login",{layout:"log",title:"Login",style:"logged.css"})
   })
 
+  router.get("/mainpark",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
+    res.render("mainpark",{layout:"entrance",title:"Mainpark",style:"entrance.css"})
+  })
+
+  router.get("/",(req, res)=>{          //TESTING DO NOT REMOVE ~ROAR
+    res.render("homepage",{layout:"main",title:"homepage",style:"main.css"})
+  })
 
 router.get('/', async(req, res) => {
  try {
