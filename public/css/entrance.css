@@ -380,7 +380,6 @@ h1 {
     pointer-events: none;
 } */
 
-<<<<<<< HEAD
 .products {
     width: 50%;
     background-color: white;
@@ -394,11 +393,9 @@ h1 {
     font-weight: bold;
   }
 
-=======
 /* TINKERBELL Cursor */
 * {
     cursor: url(https://cur.cursors-4u.net/toons/too-9/too908.ani),
         url(https://cur.cursors-4u.net/toons/too-9/too908.png), auto !important;
 }
 /* ---------------- */
->>>>>>> 9fc0415b721bfa4890f1236f214faa19eb0ae8a6
