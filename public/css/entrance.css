@@ -147,11 +147,15 @@ h1 {
     background-color: rgba(0, 0, 0, 0.5);
     height: 500px;
     display: grid;
+    justify-content: center;
     /* grid-template-columns: 45% 45%;
     grid-template-rows: 100%; */
 }
 
 #services2 {
+    display:flex;
+  flex-direction: column;
+  justify-content: center;
     color: white;
     background-image: url(/images/space3.png);
     /* background-size: cover; */
@@ -165,9 +169,9 @@ h1 {
     grid-row-start: 1;
     grid-row-end: 1; */
     height: inherit;
-    background-size: auto;
+    /* background-size: auto; */
     width: 100%;
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 .services2 {
@@ -380,17 +384,18 @@ h1 {
     pointer-events: none;
 } */
 
-.products {
-    width: 50%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-  }
-  
-  .product-details {
+.info2 {
+    justify-content: center;
+}
+
+
+.products{
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding: 10px 20px;
-    font-weight: bold;
+    margin: 50%;
+    font-family: "Mouse Memoirs", sans-serif;
   }
 
 /* TINKERBELL Cursor */
