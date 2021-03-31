@@ -1,8 +1,45 @@
 body {
-    height: 100%;
     width: 100%;
-    background-image: url("/images/project2LangingPage.jpg");
-    background-position: center;    
+    background: url(/images/blueSkyBlank.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#DL-logo {
+    width: 200rem;
+    filter: drop-shadow(0 0 20px #3078fe);
+}
+
+#brightStar {
+    width: 20rem;
+}
+
+#smallStar {
+    width: 15rem;
+}
+
+#login {
+    width: 10rem;
+}
+
+#follow-tink {
+    width: 45rem;
+    padding-right: 30;
+    filter: drop-shadow(0 0 20px #3078fe);
+}
+
+/* star glow */
+
+@keyframes glowing {
+    0% { filter: drop-shadow(0 0 -10px #c4a300); }
+    40% { filter: drop-shadow(0 0 20px #dcc44e); }
+    60% { filter: drop-shadow(0 0 20px #fce988); }
+    100% { filter: drop-shadow(0 0 -10px #c4a300); }
+}
+.button-glow { 
+    animation: glowing 4000ms infinite;
 }
 
 /* TINKERBELL Cursor */

@@ -17,10 +17,13 @@ header {
 
 body {
     color: white;
-    /* background-image:url(/images/VT.gif); */
-    /* background-image:url(/images/stars.png); */
-    background-color: black;
-    background-size: contain;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    background-image: url(/images/nightCastle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
     margin-top: 0%;
     padding: 0%;
