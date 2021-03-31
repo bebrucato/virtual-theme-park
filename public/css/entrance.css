@@ -302,63 +302,16 @@ h1 {
     bottom: 6px;
 }
 
-/* .map {
-
-} */
-
-/* .test33:hover {
-    opacity: 0.7;
-    
-} */
 
 .map2:hover {
     opacity: 0.7;
     color: red;
 }
 
-/* .href:hover {
-    opacity: 0.2;
-    color: blue;
-} */
 
-/* .test33:hover {
-    opacity: 0.2;
-    color: blue;  
-}
 
-.mapz:hover {
-    opacity: 0.2;
-    color: blue;
-}
 
-.roar {
-    opacity: 0.7;
-    color: blue; 
-} */
-
-/* .image-map-container img {
-    display:block;
-    top: 0;
-    left: 0;
-    width:50%
-}
-
-.image-map-container img :last-child{
-    display:none;
-}
- */
-
-.images img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-}
-
-.images img:last-child {
-    display: none;
-}
-/* .image-map-container .map-selector {
+.image-map-container .map-selector {
     left:0;top:0;right:0;bottom:0;
     color:#546E7A00;
     transition-duration: .3s;
@@ -378,7 +331,7 @@ h1 {
     transition-timing-function: ease-out;
     transition-property: top, left, right, bottom;
     pointer-events: none;
-} */
+}
 
 /* TINKERBELL Cursor */
 * {
@@ -386,3 +339,5 @@ h1 {
         url(https://cur.cursors-4u.net/toons/too-9/too908.png), auto !important;
 }
 /* ---------------- */
+
+
