@@ -3,7 +3,7 @@ const { Products, Vendors, User } = require('../../models');
 
 router.get('/',  (req, res) => {
   Products.findAll({
-      attributes: ['id', 'product_name','description' ],
+      attributes: ['id', 'product_name','description', 'filename' ],
       include: [
         {
             model: Vendors,
@@ -27,7 +27,7 @@ router.get('/:id', (req, res) => {
         where: {
             id: req.params.id
         },
-        attributes: ['id', 'product_name', 'description' ],
+        attributes: ['id', 'product_name', 'description', 'filename' ],
         include: [
             {
                 model: Vendors,
@@ -55,7 +55,8 @@ router.get('/:id', (req, res) => {
 router.post('/', (req, res) => {
     Products.create({
         product_name: req.body.product_name,
-        description: req.body.description
+        description: req.body.description,
+        filename: req.body.filename
     })
         .then(dbProductData => res.json(dbProductData))
         .catch(err => {
@@ -103,6 +104,7 @@ router.delete('/:id', (req, res) => {
   });
 
 
+ 
 
 
   
