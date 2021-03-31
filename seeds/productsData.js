@@ -2,32 +2,39 @@ const { Products } = require('../models');
 
 const productsData = [
     {
-      product_name: "churro",
-      description: "food"
+      product_name: "Churro",
+      description: "food",
+      filename: "churro.jpg"
     },
     {
-      product_name: "turkey_leg",
-      description: "food"
+      product_name: "Turkey Leg",
+      description: "food",
+      filename: "turkeydisney.jpg"
     },
     {
-      product_name: "dole_whip",
-      description: "food"
+      product_name: "Dole Whip",
+      description: "food",
+      filename: "dolewhip.jpg"
     },
     {
-        product_name: "soda",
-        description: "drink"
+        product_name: "Soda",
+        description: "drink",
+        filename: "disneycoke.jpg"
       },
       {
-        product_name: "mickey_ears",
-        description: "accessory"
+        product_name: "Mickey Ears",
+        description: "accessory",
+        filename: "mickeyears.jpg"
       },
       {
-        product_name: "shirt",
-        description: "accessory"
+        product_name: "Shirt",
+        description: "accessory",
+        filename: "disneyshirt.jpg"
       },
       {
-        product_name: "mug",
-        description: "accessory"
+        product_name: "Mug",
+        description: "accessory",
+        filename: "disneymug.jpg"
       }
   ]
 

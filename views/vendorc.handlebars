@@ -11,7 +11,7 @@
             <li class="nav__item"><a href="pirates" class="nav__link">Pirates of the Carribean</a></li>
             <li class="nav__item"><a href="Haunted" class="nav__link">Haunted Mansion</a></li>
             <li class="nav__item"><a href="starwars" class="nav__link">Star Wars</a></li>
-            <li class="nav__item"><a href="vendor" class="nav__link">Vendor</a></li>
+            <li class="nav__item"><a href="vendorc" class="nav__link">Vendor</a></li>
             <li class="nav__item"><a href="/" class="nav__link">Exit Park</a></li>
           </ul>  
         </nav>
@@ -41,10 +41,33 @@
               </p> 
         </div>
   </section>
+
+
+  
+ {{#if products.length}}
+  <div class="col-md-6 product-list">
+    <div class="products">
+    <h3>Buy Some Stuff!</h3>
+
+    {{#each products as |product|}}
+    <div class="row mb-2">
+      <div class="col-md-8">
+       <img src="/images/{{product.filename}}" alt="{{product.description}}">
+      </div>
+      <div class="col-md-4">
+         <h4>{{product.product_name}}</h4>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+  </div>
+  {{/if}}
+
+
+
+
   <footer class="Exit">
-    <a
-    href="/mainpark"><h1>Back to Park</h1></a>
-  </footer>   
+    <a href="mainpark"><h1>Back to Park</h1></a>  
 
  <script src="./assets/js/script.js"></script>   
 </body>
