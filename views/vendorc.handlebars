@@ -43,32 +43,43 @@
   </section>
 
 
-  
- {{#if products.length}}
-  <div class="col-md-6 product-list">
+{{!-- <section class="d-flex flex-wrap">
+    {{#each products as |product|}}
     <div class="products">
-    <h3>Buy Some Stuff!</h3>
-
+      <div class="col-md-6">
+       <img src="/images/{{product.filename}}" alt="{{product.description}}">
+      <h4 class="product-name">{{product.product_name}}</h4>
+      </div>
+    </div>
+    {{/each}}  
+</section>  --}}
+ <h3 class="product-name1">Buy Some Stuff!</h3>
+{{#if products.length}}
+  <div class="col-md-6 products">
     {{#each products as |product|}}
     <div class="row mb-2">
-      <div class="col-md-8">
+      <div class="col-md-6">
        <img src="/images/{{product.filename}}" alt="{{product.description}}">
-      </div>
-      <div class="col-md-4">
-         <h4>{{product.product_name}}</h4>
+      <h4 class="product-name">{{product.product_name}}</h4>
       </div>
     </div>
     {{/each}}
   </div>
-  </div>
   {{/if}}
 
-
+{{!-- {{#each products as |product|}}
+<section class="container">
+  <section class="flex-row justify-center products">
+    <h3 class="product-name">{{product.product_name}}</h3>
+    <img src="/images/{{product.filename}}" alt="{{product.description}}">
+  </section>
+</section>
+{{/each}} --}}
 
 
   <footer class="Exit">
     <a href="mainpark"><h1>Back to Park</h1></a>  
 
- <script src="./assets/js/script.js"></script>   
+ <script src="/js/script.js"></script>   
 </body>
 </html>

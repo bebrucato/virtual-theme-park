@@ -392,14 +392,7 @@ h1 {
 }
 
 
-.products{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 10px 20px;
-    margin: 50%;
-    font-family: "Mouse Memoirs", sans-serif;
-  }
+
 
 /* TINKERBELL Cursor */
 * {

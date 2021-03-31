@@ -39,7 +39,7 @@ The contributors on this app are Matthew John, Anthony Apicella and Briana Bruca
 
 [Space Mountain Page](screenshots/spacemountain-gif.gif)
 
-<!-- [Vendors Page](screenshots/employee-tracker2.png) -->
+[Vendor Page](screenshots/vendor-gif.gif)
 
 
 ## URLs
